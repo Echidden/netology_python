@@ -1,4 +1,4 @@
-# def main():
+def main():
     items = input("Введите список товаров через запятую: ").split(',')
     items = [item.strip() for item in items]
 
@@ -26,5 +26,5 @@
 
     print(f"\nВы можете сэкономить больше всего, купив товары в магазине: {', '.join(best_store)} (стоимость: {min_cost:.2f} руб.)")
 
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
