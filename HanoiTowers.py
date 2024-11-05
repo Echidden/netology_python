@@ -1,6 +1,6 @@
 def move_disk(from_peg, to_peg, disk_number):
     """Функция для перемещения диска."""
-    move = f"Блин {disk_number}: Стержень {from_peg} -> Стержень {to_peg}."
+    move = f"Диск {disk_number}: Стержень {from_peg} -> Стержень {to_peg}."
     print(move)
     return move
 
