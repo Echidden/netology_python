@@ -22,7 +22,7 @@ def main():
                 print(f'Что-то пошло не так, пропускаем строчку {line.strip()}. Ошибка: {exception}')
 
             result_file.write(get_str_to_write(name, device, user_agent, sex, age, money, region))
-    print('Конвертация файла успешно завершена.')
+    print('Конвертация файла успешно завершена!')
 
 if __name__ == '__main__':
     main()
